@@ -4,6 +4,7 @@ import models
 from models.base_model import BaseModel, Base
 from models import storage_type
 from models.city import City
+from os import getenv
 from sqlalchemy import Column, String,  ForeignKey
 from sqlalchemy.orm import relationship
 
