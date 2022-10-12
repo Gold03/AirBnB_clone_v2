@@ -16,7 +16,7 @@ class City(BaseModel, Base):
                               cascade='all, delete')
         
     else:
-        name = ""
-        state_id = ""
+        name = ''
+        state_id = ''
         
         
